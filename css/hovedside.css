@@ -8,8 +8,6 @@ h1{
 	font-size: 30px;
 }
 
-.navbar a{
-	text-decoration: none;
 }
 
 .navbar {
@@ -17,6 +15,9 @@ h1{
   position: fixed;
   top: 0;
   width: 100%;
+	background-color: red;
 
-	background-color: black;
 }
+
+ a{
+	text-decoration: none;
