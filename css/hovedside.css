@@ -40,12 +40,16 @@ a:hover{
 
 
 @media only screen and (max-width:599px){
-	.hoveddel{ padding-left: 5%;
-		padding-right: 5%; }
+	.hoveddel{ padding-left: 7%;
+		padding-right: 7%; 
+		padding-bottom: 8%;}
 }
 
 
 	@media only screen and (min-width:600px){
+		h1{
+		padding-top: 2%;
+	}
 		.hoveddel {padding-left: 20%; 
 			padding-right: 20%; }
 	}
