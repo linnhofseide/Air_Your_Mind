@@ -15,10 +15,6 @@ h1, h2{
 	color: black;
 }
 
-.hoveddel{
-	padding-left: 10%;
-	padding-right: 10%;
-}
 .navigation{
    overflow: hidden;
   position: fixed;
@@ -41,3 +37,16 @@ a{
 a:hover{ 
 	color: #084503;
 	text-decoration: underline; }
+
+
+@media only screen and (max-width:599px){
+	.hoveddel{ padding-left: 5%;
+		padding-right: 5%; }
+}
+
+
+	@media only screen and (min-width:600px){
+		.hoveddel {padding-left: 20%; 
+			padding-right: 20%; }
+	}
+
