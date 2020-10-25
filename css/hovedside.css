@@ -22,6 +22,7 @@ h1, h2{
   top: 0px;
   width: 100%;
 	background-color: #68d158;
+	z-index: 100;
 }
 
 .navigation a{
@@ -68,6 +69,7 @@ img{
 
 	img{
 		width: 400px;
+		background-color: none;
 	}
 .BildeE{
 
@@ -78,7 +80,6 @@ img{
 
 
 }
-
 
 
 }
