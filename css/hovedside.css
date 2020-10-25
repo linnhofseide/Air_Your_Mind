@@ -54,4 +54,17 @@ a:hover{
 			padding-right: 20%; }
 	}
 
-	
+	.bilde1{
+		position:absolute;
+		left: 15%;
+		right:50%;
+
+
+	}
+
+	.bilde2{
+		position: absolute;
+		right: 10%;
+		left: 52%;
+
+	}
