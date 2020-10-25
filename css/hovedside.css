@@ -65,15 +65,37 @@ img{
 			padding-right: 20%; }
 	}
 
+
+	img{
+		width: 400px;
+	}
+.BildeE{
+
+	position: absolute;
+	left: 10%;
+	right: 50%;
+
+	width: 100px;
+
+}
+
+
+
+}
+.bilde2{
+position: absolute;
+left: 50%;
+right: 2%;
+}
+
+
 	.bilde1{
 		position:absolute;
 		left: 15%;
 		right:50%;
-
-
 	}
 
-	.bilde2{
+	.bildeNo{
 		position: absolute;
 		right: 10%;
 		left: 52%;
