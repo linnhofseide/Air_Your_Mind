@@ -78,9 +78,9 @@ img{
 	}
 
 .BildeE{
-	float: left;
+
 position: absolute;
-left: 10%; right: auto;
+left: 15%; right: auto;
 
 	}
 
@@ -91,18 +91,30 @@ left: 10%; right: auto;
 
 	}
 
-	@media only screen and (max-width:1000px){
+	@media only screen and (max-width:1150px){
 		.BildeE{
 		position:absolute;
-		left: 30%;
-		right:70%;
+		left: 15%;
+		right:85%;
 		}
 
 		.Bilde2{
 			position: absolute;
-			bottom: -800px;
-			left: 30%;
-			right: 10%;
+			top: 1200px;
+			left: 15%;
+			right: 85%;}
+
+			.Bilde1{
+			position:absolute;
+			left: 15%;
+			right:85%;
+			}
+
+			.BildeNo{
+				position: absolute;
+				bottom: -900px;
+				left: 15%;
+				right: 85%;
 		}
 	}
 
@@ -110,12 +122,12 @@ left: 10%; right: auto;
 
 		position: absolute;
 		left: 30%;
-		top: 80%;
+
 	}
 
 .BildeNo{
 
 		position: absolute;
 		left: 30%;
-		top: 80%;
+
 	}
