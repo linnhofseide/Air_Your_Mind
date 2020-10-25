@@ -29,19 +29,19 @@ h1, h2{
 	padding-left: 10px;
 	background-color: #68d158;
 }
-a{ 
+a{
 	text-decoration: none;
 	color: black;
 
  }
-a:hover{ 
+a:hover{
 	color: #084503;
 	text-decoration: underline; }
 
 
 @media only screen and (max-width:599px){
 	.hoveddel{ padding-left: 7%;
-		padding-right: 7%; 
+		padding-right: 7%;
 		padding-bottom: 8%;}
 }
 
@@ -50,7 +50,8 @@ a:hover{
 		h1{
 		padding-top: 2%;
 	}
-		.hoveddel {padding-left: 20%; 
+		.hoveddel {padding-left: 20%;
 			padding-right: 20%; }
 	}
 
+	
