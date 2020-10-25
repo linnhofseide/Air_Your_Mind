@@ -46,6 +46,7 @@ img{
 		width: 300px;
 		margin-left: auto;
 		margin-right: auto;
+		background-color: none;
 
 	}
 
@@ -63,7 +64,8 @@ img{
 		padding-top: 2%;
 	}
 		.hoveddel {padding-left: 20%;
-			padding-right: 20%; }
+			padding-right: 20%;
+		z-index: 20;}
 	}
 
 
@@ -91,15 +93,20 @@ z-index: 2;
 }
 
 
-	.bilde1{
+.bilde1{
 		position:absolute;
 		left: 15%;
-		right:50%;
+		right:10%;
+
+		z-index: 2;
 	}
 
-	.bildeNo{
+.bildeNo{
 		position: absolute;
 		right: 10%;
 		left: 52%;
+
+		z-index: 1;
+
 
 	}
