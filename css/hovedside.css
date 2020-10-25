@@ -80,21 +80,32 @@ img{
 .BildeE{
 
 position: absolute;
-left: 15%; right: auto;
+left: 17%;
 
 	}
 
 .Bilde2{
 		position: absolute;
-		left: 50%;
+		left: 57%;
 
 
 	}
 
-	@media only screen and (max-width:1150px){
+	.Bilde1{
+
+	position: absolute;
+	left: 17%;
+
+		}
+
+	.BildeNo{
+			position: absolute;
+			left: 57%;
+	}
+	@media only screen and (max-width:1000px){
 		.BildeE{
 		position:absolute;
-		left: 15%;
+		left:15%;
 		right:85%;
 		}
 
@@ -112,22 +123,8 @@ left: 15%; right: auto;
 
 			.BildeNo{
 				position: absolute;
-				bottom: -900px;
+				top: 2100px;
 				left: 15%;
 				right: 85%;
 		}
-	}
-
-.Bilde1{
-
-		position: absolute;
-		left: 30%;
-
-	}
-
-.BildeNo{
-
-		position: absolute;
-		left: 30%;
-
 	}
