@@ -14,6 +14,9 @@ h1{
 h1, h2{
 	color: black;
 }
+p{
+	z-index:30;
+}
 
 .navigation{
    overflow: hidden;
@@ -47,6 +50,7 @@ img{
 		margin-left: auto;
 		margin-right: auto;
 		background-color: none;
+		z-index: 1;
 
 	}
 
@@ -54,7 +58,8 @@ img{
 @media only screen and (max-width:599px){
 	.hoveddel{ padding-left: 7%;
 		padding-right: 7%;
-		padding-bottom: 8%;}
+		padding-bottom: 8%; }
+
 		img{ width: 70%; }
 }
 
@@ -84,6 +89,21 @@ left: 10%; right: auto;
 		left: 50%;
 
 
+	}
+
+	@media only screen and (max-width:1000px){
+		.BildeE{
+		position:absolute;
+		left: 30%;
+		right:70%;
+		}
+
+		.Bilde2{
+			position: absolute;
+			bottom: -800px;
+			left: 30%;
+			right: 10%;
+		}
 	}
 
 .Bilde1{
