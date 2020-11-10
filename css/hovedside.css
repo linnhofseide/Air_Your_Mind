@@ -94,13 +94,13 @@ left: 20%;
 	.Bilde1{
 
 	position: absolute;
-	left: 17%;
+	left: 20%;
 
 		}
 
 	.BildeNo{
 			position: absolute;
-			left: 57%;
+			left: 55%;
 	}
 	@media only screen and (max-width:1000px){
 		.BildeE{
