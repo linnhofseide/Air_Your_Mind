@@ -72,55 +72,70 @@ left: 20%;
 
 	.Bilde1{
 		position: absolute;
+		top: 890px;
 	left: 20%;
-	top: 1050px;
+	
 
 		}
 
 	.BildeNo{
-	position: absolute;
+		position: absolute;
+	top: 890px;
 			left: 55%;
-			top: 1050px;
+	
+	}
+
+	@media only screen and (max-width: 1100px){
+		.Bilde1{
+		position: absolute;
+		top: 950px;
+	left: 20%;}
+
+	.BildeNo{
+		position: absolute;
+	top: 950px;
+			left: 55%;
+	
+	}
+
 	}
 
 
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 935px){
 	.Bilde1{
-			left: 25%;
-			top: 1200px;
-			}
-			.BildeNo{
-				top: 1750px;
-				left: 25%;
-				
+		position: static;
+		left: 20%;
 		}
 
-			.Bilde1{
-			left: 30%;
-			top: 1180px;
-		
-			}
-
-			.BildeNo{
-				left: 30%;
-				top: 1750px;
-				
+	.BildeNo{
+		position: static;
+		left: 55%;
+	
+	}
+	.BildeE{
+		left:55%;
+		position: static;
 		}
+
+
+		.Bilde2{
+			left: 55%;
+			position: static;}
 
 
 }
 
 @media only screen and (max-width: 720px){
+
 	.BildeE{
-		left:17%;
-		right:30%;
+		left:25%;
 		top: 450px;
 		}
 
 
 		.Bilde2{
-			left: 17%;
-			right: 30%;}
+			left: 25%;
+			top: 1000px;}
 
 			.Bilde1{
 			left: 25%;
@@ -148,6 +163,18 @@ left: 20%;
 				position: static;	
 		}
 
+		.BildeE{
+		left:25%;
+		top: 450px;
+		
+		}
+
+
+		.Bilde2{
+			left: 25%;
+			top: 1000px;
+			}
+
 }
 
 @media only screen and (max-width: 540px){
@@ -161,6 +188,16 @@ left: 20%;
 				position: static;
 				
 		}
+
+		.BildeE{
+		left:18%;
+		top: 450px;	
+		}
+
+		.Bilde2{
+			left: 18%;
+			top: 1000px;
+			}
 
 }
 
@@ -182,9 +219,7 @@ left: 20%;
 	}
 
 
-	img {
-		width: 300px;
-		background-color: none;
-	}
+	img {width: 300px;
+	     background-color: none;}
 
 }
