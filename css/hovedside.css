@@ -32,6 +32,7 @@ p{
 .navigation a{
 	padding-right: 10px;
 	padding-left: 10px;
+	font-size: 20px;
 	background-color: #68d158;
 }
 a{
@@ -70,69 +71,96 @@ left: 20%;
 	}
 
 	.Bilde1{
-
-	position: absolute;
+		position: absolute;
 	left: 20%;
 	top: 1050px;
 
 		}
 
 	.BildeNo{
-			position: absolute;
+	position: absolute;
 			left: 55%;
 			top: 1050px;
 	}
 
 
-	@media only screen and (max-width: 950px){
-			.BildeE{
-		padding-top: 10px;
-		left:25%;
-		right:30%;
-		top: 400px;
-		}
-
-		.Bilde2{
-			top: 1000px;
-			left: 25%;
-			right: 30%;}
-
-			.Bilde1{
+@media only screen and (max-width: 880px){
+	.Bilde1{
 			left: 25%;
 			top: 1200px;
 			}
-
 			.BildeNo{
 				top: 1750px;
 				left: 25%;
 				
 		}
-	}
 
-@media only screen and (max-width: 800px){
+			.Bilde1{
+			left: 30%;
+			top: 1180px;
+		
+			}
+
+			.BildeNo{
+				left: 30%;
+				top: 1750px;
+				
+		}
+
+
+}
+
+@media only screen and (max-width: 720px){
 	.BildeE{
 		left:17%;
 		right:30%;
 		top: 450px;
 		}
 
+
 		.Bilde2{
 			left: 17%;
 			right: 30%;}
 
 			.Bilde1{
-			left: 20%;
-			top: 1300px;
+			left: 25%;
+			top: 1265px;
 		
 			}
 
 			.BildeNo{
-				left: 20%;
-				top: 1850px;
+				left: 25%;
+				top: 1830px;
 				
 		}
+}
 
+@media only screen and (max-width: 658px){
+	.Bilde1{
+			left: 22%;
+			top: 1300px;
+			position: static;
+			}
 
+			.BildeNo{
+				left: 22%;
+				top: 1850px;
+				position: static;	
+		}
+
+}
+
+@media only screen and (max-width: 540px){
+	.Bilde1{
+			left: 22%;
+			position: static;
+			}
+
+			.BildeNo{
+				left: 22%;
+				position: static;
+				
+		}
 
 }
 
